@@ -1,0 +1,20 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+       <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;800&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1> <div id="header-part-1">Generate a </div><div id="header-part-2"> random Password </div></h1>
+        <h4> Never use an insecure password again. </h4>
+        <button id="generate-password-btn" onclick="showPassword()"> Generate Passwords </button>
+        <div id="line"> </div>
+        <p>
+            <div id="passwords">
+                <button id="password-1" onclick="copyPassword(document.getElementById('password-1').textContent)"></button>
+                <button id="password-2" onclick="copyPassword(document.getElementById('password-2').textContent)"></button>
+            </div>
+        </p>
+        <script src="index.js"></script>
+    </body>
+</html>
